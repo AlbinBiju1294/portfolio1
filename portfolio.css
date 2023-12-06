@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upperdiv
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.maindiv
+{
+    display: flex;
+    width: 900px;
+    min-height: 100vh;
+}
+
+.maindiv .leftdiv
+{
+    flex:2;
+    background-color: black;
+}
+
+.maindiv .rightdiv
+{
+    flex: 3;
+    color: white;
+    background-color: aliceblue;
+}
+
+.leftdiv .leftcontent
+{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.education
+{
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+
+.education h3
+{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: large;
+    padding-bottom: 10px;
+    border-bottom: solid 2px yellow;
+}
+
+.education h4
+{
+    font-weight: 300;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.education ul
+{
+    list-style-type: none;
+    margin-left: 16px;
+}
+
+.education ul li
+{
+    font-weight: 200;
+    font-size: small;
+}
+
+
+
+.leftbottominner
+{
+    width:100%;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    color: rgb(20, 21, 21);
+}
+
+.innerleft
+{
+    display: flex;
+    align-items: center;
+    flex:1;
+    background-color: yellow;
+
+}
+
+.innerright{
+    display: flex;
+    align-items: center;
+    flex:4;
+    background-color: grey;
+}
+
+.rightdiv
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightdivinner
+{
+    width: 85%;
+}
+
+.rightname
+{
+    width: 100%;
+    margin-top: 50px;
+    color: black;
+    height: 100px;
+    background-color: #FFFD37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightname h1
+{
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.rightname h1 span
+{
+    font-weight: 500;
+}
+
+.rightname h3
+{
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.educationright
+{
+    color: black;
+    margin-top: 50px;
+}
+
+.educationright h3
+{
+    border-bottom:#141414 2px double;
+    margin-bottom: 20px;
+}
+
+.educationright p
+{
+    font-size: small;
+    text-align: justify;
+}
+
+.educationright ul
+{
+    margin-left: 16px;
+}
+
+.innercontent h4
+{
+    margin-top: 7px;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 73px;
+}
+
+.workexperience
+{
+    display: flex;
+    color: black;
+    margin-top: 20px;
+}
+
+.datecontent
+{
+    flex: 1;
+}
+
+.jobinfo
+{
+    flex: 2;
+}
+
+.skills
+{
+    display: flex;
+}
+
+.skillitems h4
+{
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.second{
+    margin-left: 55px;
+}
