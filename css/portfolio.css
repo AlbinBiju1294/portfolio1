@@ -23,13 +23,13 @@
 
 .maindiv .leftdiv
 {
-    flex:2;
-    background-color: black;
+    flex:1;
+    background-color: #212025;
 }
 
 .maindiv .rightdiv
 {
-    flex: 3;
+    flex: 2;
     color: white;
     background-color: aliceblue;
 }
@@ -52,12 +52,13 @@
     font-weight: 400;
     font-size: large;
     padding-bottom: 10px;
-    border-bottom: solid 2px yellow;
+    border-bottom: solid 2px hsl(48deg 100% 50%);
 }
 
 .education h4
 {
-    font-weight: 300;
+    font-weight: 400;
+    margin-left: 27px;
     font-size: medium;
     margin-top: 10px;
 }
@@ -65,12 +66,12 @@
 .education ul
 {
     list-style-type: none;
-    margin-left: 16px;
+    margin-left: 27px;
 }
 
 .education ul li
 {
-    font-weight: 200;
+    font-weight: 400;
     font-size: small;
 }
 
@@ -90,15 +91,23 @@
     display: flex;
     align-items: center;
     flex:1;
-    background-color: yellow;
+    background-color: hsl(48deg 100% 50%);
 
 }
 
 .innerright{
     display: flex;
     align-items: center;
-    flex:4;
-    background-color: grey;
+    flex:6;
+    background-color: #2a292e;
+}
+
+.innerright h4
+{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 13px;
 }
 
 .rightdiv
@@ -106,6 +115,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.innercontent h4
+{
+    margin-top: 7px;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 55px;
 }
 
 .rightdivinner
@@ -116,10 +134,10 @@
 .rightname
 {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 90px;
     color: black;
-    height: 100px;
-    background-color: #FFFD37;
+    height: 160px;
+    background-color: hsl(48deg 100% 50%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,6 +146,7 @@
 .rightname h1
 {
     font-weight: 300;
+    font-size: 50px;
     margin-left: 40px;
 }
 
@@ -150,12 +169,14 @@
 
 .educationright h3
 {
+    padding-bottom: 20px;
     border-bottom:#141414 2px double;
     margin-bottom: 20px;
 }
 
 .educationright p
 {
+    margin-top: 20px;
     font-size: small;
     text-align: justify;
 }
@@ -165,14 +186,7 @@
     margin-left: 16px;
 }
 
-.innercontent h4
-{
-    margin-top: 7px;
-    color: aliceblue;
-    font-size: 13px;
-    font-weight: 300;
-    margin-left: 73px;
-}
+
 
 .workexperience
 {
@@ -193,6 +207,8 @@
 
 .skills
 {
+    margin-top: 35px;
+    margin-left: 50px;
     display: flex;
 }
 
@@ -205,4 +221,32 @@
 
 .second{
     margin-left: 55px;
+}
+
+.progressbar
+{
+    margin-top: 6px;
+    height: 6px;
+    border-radius: 2px;
+    width: 200px;
+    background-color: gray;
+}
+
+.progress
+{
+    height: 100%;
+    width: 75%;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.fade-in
+{
+    animation: fadeIn 3s;
+}
+
+
+@keyframes fadeIn {
+    0%{ width: 0%;
+    }
 }
